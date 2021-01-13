@@ -7,6 +7,10 @@ import { Component } from '@angular/core';
 
 export class BodyComponent {
 
+  mostrar = true;
+
+  personajes: string[] = ['Spiderman' , 'Venom' , 'Dr. Octopus', 'Tapias'];
+
   frase: any = {
     mensaje: 'Un gran poder conlleva una gran responsabilidad.',
     autor: 'Ben Parker'
